@@ -8,6 +8,7 @@ import { ListPageComponent } from './pages/list-page/list-page.component';
 import { NewPageComponent } from './pages/new-page/new-page.component';
 import { SerchPageComponent } from './pages/serch-page/serch-page.component';
 import { MaterialModule } from '../material/material.module';
+import { CardComponent } from './card/card.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { MaterialModule } from '../material/material.module';
     LayoutPageComponent,
     ListPageComponent,
     NewPageComponent,
-    SerchPageComponent
+    SerchPageComponent,
+    CardComponent
   ],
   imports: [
     CommonModule,
